@@ -14,7 +14,14 @@ import os
 
 
 # Your app code goes here
-
+hide_streamlit_style = """
+<style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+</style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Set NLTK data path
 nltk_data_path = os.path.join(os.path.dirname(__file__), 'nltk_data')
