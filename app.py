@@ -12,8 +12,7 @@ from sklearn.linear_model import LogisticRegression
 import os
 
 # Ensure NLTK resources are downloaded
-nltk.download('punkt')
-nltk.download('wordnet')
+
 
 # Set NLTK data path
 nltk_data_path = os.path.join(os.path.dirname(__file__), 'nltk_data')
