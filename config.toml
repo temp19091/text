@@ -1,0 +1,17 @@
+[theme]
+primaryColor = '#1abc9c'
+backgroundColor = '#ffffff'
+secondaryBackgroundColor = '#f0f2f6'
+textColor = '#262730'
+font = 'sans serif'
+
+[server]
+enableCORS = false
+enableXsrfProtection = false
+port = 8501
+headless = true
+
+[browser]
+gatherUsageStats = false
+# Uncomment the next line if you want to hide the Streamlit header and footer
+# hide_streamlit_style = true
