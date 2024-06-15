@@ -1,5 +1,5 @@
 import streamlit as st
-st.beta_set_page_config(hide_streamlit_style=True)
+
 import pandas as pd
 import numpy as np
 import altair as alt
