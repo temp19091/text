@@ -11,6 +11,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 
 
+nltk.download('punkt')
 # Initialize Lemmatizer
 lemmatizer = WordNetLemmatizer()
 
