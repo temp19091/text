@@ -1,4 +1,5 @@
 import streamlit as st
+st.beta_set_page_config(hide_streamlit_style=True)
 import pandas as pd
 import numpy as np
 import altair as alt
@@ -12,7 +13,6 @@ from sklearn.linear_model import LogisticRegression
 import os
 
 # Ensure NLTK resources are downloaded
-st.beta_set_page_config(hide_streamlit_style=True)
 
 st.beta_set_page_config(hide_streamlit_style=True)
 # Set NLTK data path
