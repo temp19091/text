@@ -5,6 +5,7 @@ import numpy as np
 import altair as alt
 import joblib
 import nltk
+nltk.data.path.append('/nltk_data')
 
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
