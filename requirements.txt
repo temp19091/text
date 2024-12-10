@@ -6,4 +6,3 @@ seaborn
 neattext
 nltk
 joblib
-punkt
