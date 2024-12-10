@@ -26,7 +26,7 @@ header {visibility: hidden;}
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Set NLTK data path
-nltk_data_path = os.path.join(os.path.dirname(__file__), 'nltk_data')
+nltk_data_path = os.path.join(os.path.dirname(__file__), '/nltk_data')
 nltk.data.path.append(nltk_data_path)
 
 # Initialize Lemmatizer
